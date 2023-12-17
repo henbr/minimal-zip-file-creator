@@ -19,7 +19,7 @@
   "module": "dist/index.js",
   "browser": "dist/index.min.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:henbr/minimal-zip-file-creator.git",
+  "repository": "https://github.com/henbr/minimal-zip-file-creator.git",
   "files": [
     "dist"
   ],

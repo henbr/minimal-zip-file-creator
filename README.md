@@ -77,7 +77,6 @@ benchmark                     time (avg)             (min … max)
 ----------------------------------------------------------------
 minimal-zip-file-creator  195.62 ms/iter       (192 ms … 204 ms)
 jzip                         270 ms/iter       (259 ms … 291 ms)
-
 ```
 
 ### Bun (1.0.18)
