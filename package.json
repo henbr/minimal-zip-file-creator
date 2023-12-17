@@ -1,0 +1,34 @@
+{
+  "name": "minimal-zip-file-creator",
+  "version": "0.1.0",
+  "description": "A small library for creating uncompressed ZIP files",
+  "author": "Henrik Brandt",
+  "license": "Zlib",
+  "private": false,
+  "keywords": [
+    "archive",
+    "zip",
+    "small",
+    "fast",
+    "no-dependencies",
+    "cross-platform",
+    "browser",
+    "node.js"
+  ],
+  "type": "module",
+  "module": "dist/index.js",
+  "browser": "dist/index.min.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:henbr/minimal-zip-file-creator.git",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dist": "rm -rf dist && tsc --build tsconfig.json && terser dist/index.js --compress ecma=6 --comments false --toplevel --mangle --output dist/index.min.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "terser": "5.16.4"
+  }
+}
