@@ -33,7 +33,7 @@ const zip = createZip([
   },
 ]);
 
-saveAs(new Blob(zip), "example.zip");
+saveAs(new Blob([zip]), "example.zip");
 ```
 
 ## API
